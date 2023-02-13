@@ -1,0 +1,62 @@
+.p{
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    top: 274px;
+}
+/* Using positioning attributes, place the images with their respective overlays as in the example (hint: remember that for an absolute position child element, the parent element must use position relative). Alternatively, you can use background-image attribute instead.*/
+.pic1{
+    background-image: url("pasta.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}    
+.pic2{
+    background-image: url("burger.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}  
+.pic3{
+    background-image: url("pizza.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}  
+.pic4{
+    background-image: url("pancakes.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}  
+.pic5{
+    background-image: url("pasta2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}  
+.pic6{
+    background-image: url("tasty.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}  
+.pic7{
+    background-image: url("breakfast.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}  
+.pic8{
+    background-image: url("cake.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}  
+.pic9{
+    background-image: url("taco.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}  
+    

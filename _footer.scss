@@ -1,0 +1,63 @@
+footer{
+    background-color: black;
+    .foot{
+        width: 100%;
+        font-family: fantasy;
+        display: flex;
+        justify-content: space-around;
+        a{
+            margin-top: 1%;
+            color: white;
+            text-decoration: None;
+        }
+        p{
+            margin-top: 1%;
+            color: white;
+            text-decoration: None;
+        }
+        .about:hover{
+            color:red;
+        }
+        .recipes:hover{
+            color:red;
+        }
+        .faq:hover{
+            color:red;
+        }
+        .contact:hover{
+            color:red;
+        }
+    }
+    .media{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        a{
+            margin-top: 1%;
+            text-decoration: None;
+        }
+        .fa-twitter:hover{
+            color:red;
+        }
+        .fa-youtube:hover{
+            color:red;
+        }
+        .fa-facebook:hover{
+            color:red;
+        }
+    }
+    .right{
+        width: 100%;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        p{
+            margin-top: 1%;
+            color: white; 
+        }
+        .cpr:hover{
+            color:grey;
+        }
+    }
+}

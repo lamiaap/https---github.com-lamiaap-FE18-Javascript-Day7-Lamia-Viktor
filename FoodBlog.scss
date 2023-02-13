@@ -1,0 +1,87 @@
+@import "Pictures"; /* Using positioning attributes, place the images with their respective overlays as in the example (hint: remember that for an absolute position child element, the parent element must use position relative). Alternatively, you can use background-image attribute instead.*/
+@import "navbar";
+@import "footer";
+/*Use SASS/SCSS tools to style your website.*/
+/* Use CSS selectors (classes and/or IDs) to style your web page. Make sure the classes have useful and proper names. Stick to the English language for it.*/
+*{
+    margin: 0px;
+}
+
+
+.pics{
+    font-family: fantasy;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*Correct usage of Flexbox and/or Grid (when necessary). The elements should be displayed according to the design given, respecting the columns and rows.*/
+    justify-content: center;
+    gap: 7vh;
+    width: 80%;
+    margin: 40px auto;
+    .w{
+        color: white;
+text-align: center;    }
+    div:hover{
+        background-color: red;
+        opacity: 0.5;
+        .w{
+            background-color: red;
+            opacity: 0.5;
+        }
+        .p{
+            background-color: red;
+            opacity: 0.5;
+        }
+    }
+} 
+
+.error{
+    background-image: linear-gradient(white, grey, black);
+    height: 100vh;
+    width: 100%;
+    h1{
+        color: red;
+        font-size: 500%;
+        margin-left: 30%;
+    }
+}
+.recipe{
+    font-family: fantasy;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    gap: 7vh;
+    width: 150vh;
+    height: 150vh;
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    background-image: linear-gradient(white,yellow);  
+    box-shadow: 0px 0px 10px black;
+    .content{
+        height: 100%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+        text-align: center;
+        img{
+            height: 50%;
+            width: 80%;
+        }
+    }
+}
+/*Create a Media Query for tablets. For this option, as the tablet resolution is wider, two columns should be able to fit in the screen. *Research what is the most popular tablet breaking point.*/
+@media screen and (min-width: 651px) and (max-width: 962px) {
+    .pics {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+/*Correct usage of Media Queries. For mobile resolution of =< 480px, you should use the second guide template.*/
+@media screen and (max-width: 650px) {
+    .pics {
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+  

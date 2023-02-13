@@ -1,0 +1,305 @@
+.p {
+  background-color: black;
+  opacity: 0.7;
+  position: relative;
+  top: 274px;
+}
+
+/* Using positioning attributes, place the images with their respective overlays as in the example (hint: remember that for an absolute position child element, the parent element must use position relative). Alternatively, you can use background-image attribute instead.*/
+.pic1 {
+  background-image: url("pasta.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.pic2 {
+  background-image: url("burger.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.pic3 {
+  background-image: url("pizza.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.pic4 {
+  background-image: url("pancakes.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.pic5 {
+  background-image: url("pasta2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.pic6 {
+  background-image: url("tasty.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.pic7 {
+  background-image: url("breakfast.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.pic8 {
+  background-image: url("cake.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+.pic9 {
+  background-image: url("taco.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+}
+
+/* Using positioning attributes, place the images with their respective overlays as in the example (hint: remember that for an absolute position child element, the parent element must use position relative). Alternatively, you can use background-image attribute instead.*/
+nav {
+  height: 20vh;
+  width: 100%;
+}
+nav .search {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .search a {
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .search a:hover {
+  color: red;
+}
+nav .search .a1 {
+  font-family: "Brush Script MT", cursive;
+  font-weight: bold;
+  font-size: 300%;
+  margin-left: 5%;
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .search .a2 {
+  font-family: fantasy;
+  margin-top: 1%;
+  margin-right: 3%;
+  color: black;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+nav .search .a2:hover {
+  color: red;
+}
+nav .search .a2:hover .together {
+  color: red;
+}
+nav .foods {
+  height: 100px;
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav .foods a {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 4%;
+  text-decoration: none;
+  height: 50%;
+  color: black;
+}
+nav .foods .pasta:hover {
+  color: red;
+}
+nav .foods .taco:hover {
+  color: red;
+}
+nav .foods .pizza:hover {
+  color: red;
+}
+nav .foods .dessert:hover {
+  color: red;
+}
+nav .foods .breakfast:hover {
+  color: red;
+}
+nav .foods .lunch:hover {
+  color: red;
+}
+nav .foods .dinner:hover {
+  color: red;
+}
+nav .foods .page2:hover {
+  color: red;
+}
+nav .l {
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+}
+footer .foot {
+  width: 100%;
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-around;
+}
+footer .foot a {
+  margin-top: 1%;
+  color: white;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+footer .foot p {
+  margin-top: 1%;
+  color: white;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+footer .foot .about:hover {
+  color: red;
+}
+footer .foot .recipes:hover {
+  color: red;
+}
+footer .foot .faq:hover {
+  color: red;
+}
+footer .foot .contact:hover {
+  color: red;
+}
+footer .media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+footer .media a {
+  margin-top: 1%;
+  -webkit-text-decoration: None;
+          text-decoration: None;
+}
+footer .media .fa-twitter:hover {
+  color: red;
+}
+footer .media .fa-youtube:hover {
+  color: red;
+}
+footer .media .fa-facebook:hover {
+  color: red;
+}
+footer .right {
+  width: 100%;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+footer .right p {
+  margin-top: 1%;
+  color: white;
+}
+footer .right .cpr:hover {
+  color: grey;
+}
+
+/*Use SASS/SCSS tools to style your website.*/
+/* Use CSS selectors (classes and/or IDs) to style your web page. Make sure the classes have useful and proper names. Stick to the English language for it.*/
+* {
+  margin: 0px;
+}
+
+.pics {
+  font-family: fantasy;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /*Correct usage of Flexbox and/or Grid (when necessary). The elements should be displayed according to the design given, respecting the columns and rows.*/
+  justify-content: center;
+  gap: 7vh;
+  width: 80%;
+  margin: 40px auto;
+}
+.pics .w {
+  color: white;
+  text-align: center;
+}
+.pics div:hover {
+  background-color: red;
+  opacity: 0.5;
+}
+.pics div:hover .w {
+  background-color: red;
+  opacity: 0.5;
+}
+.pics div:hover .p {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.error {
+  background-image: linear-gradient(white, grey, black);
+  height: 100vh;
+  width: 100%;
+}
+.error h1 {
+  color: red;
+  font-size: 500%;
+  margin-left: 30%;
+}
+
+.recipe {
+  font-family: fantasy;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  gap: 7vh;
+  width: 150vh;
+  height: 150vh;
+  margin-top: 5%;
+  margin-left: 12%;
+  margin-bottom: 5%;
+  background-image: linear-gradient(white, yellow);
+  box-shadow: 0px 0px 10px black;
+}
+.recipe .content {
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: center;
+}
+.recipe .content img {
+  height: 50%;
+  width: 80%;
+}
+
+/*Create a Media Query for tablets. For this option, as the tablet resolution is wider, two columns should be able to fit in the screen. *Research what is the most popular tablet breaking point.*/
+@media screen and (min-width: 651px) and (max-width: 962px) {
+  .pics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*Correct usage of Media Queries. For mobile resolution of =< 480px, you should use the second guide template.*/
+@media screen and (max-width: 650px) {
+  .pics {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=FoodBlog.css.map */
