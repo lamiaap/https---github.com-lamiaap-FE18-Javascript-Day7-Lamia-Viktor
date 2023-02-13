@@ -302,4 +302,10 @@ footer .right .cpr:hover {
   .pics {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+.swiper {
+  width: 600px;
+  height: 600px;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }/*# sourceMappingURL=FoodBlog.css.map */
